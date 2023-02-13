@@ -1,0 +1,9 @@
+PORT=3001
+DB_TYPE=mongodb
+DB_HOST=localhost
+DB_PORT=27017
+DB_USER=admin
+DB_PASSWORD=admin
+DB_NAME=admin
+REDIS_URL=redis://localhost:6379
+API_PREFIX=/vehicle

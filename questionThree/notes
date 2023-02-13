@@ -1,0 +1,15 @@
+Project Description
+
+Structure two microservices, one named account the other one named vehicle
+
+
+
+functionality should be only accounts getting vehicles assigned to them and vehicle ownerships getting transferred
+so basically once a vehicle ownership is transferred, account should be updated and once an account is getting a new vehicle, vehicle should be updated
+
+your focus should be on the way you structure your code and your micro services talking to each other
+
+aim is to demonstrate best practices and design patterns you can use to implement them
+
+either use a public repository or 
+use a private repository and add my email address to it : mahdi.maghrouni@whipmobility.com

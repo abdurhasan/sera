@@ -1,0 +1,9 @@
+DB_TYPE=mongodb
+DB_HOST=54.169.36.169
+DB_PORT=27017
+DB_USER=admintest
+DB_PASSWORD=admintest
+DB_NAME=dbtest
+REDIS_HOST=localhost
+REDIS_PORT=6379
+API_PREFIX=/account

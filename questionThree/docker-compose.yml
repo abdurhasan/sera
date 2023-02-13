@@ -1,0 +1,25 @@
+version: "3.7"
+
+services:
+  microservices-protocol:    
+    image: "redis:6.2-alpine"
+    ports:
+      - 6379:6379
+  
+  database:
+    image: mongo:latest
+    restart : always
+    ports:
+      - 27017:27017
+    environment:      
+      - MONGO_INITDB_ROOT_USERNAME=admin
+      - MONGO_INITDB_ROOT_PASSWORD=admin
+  
+  # if api gateway needed
+  # api-gateway:
+  #   image: 'jc21/nginx-proxy-manager:latest'
+  #   restart: unless-stopped
+  #   ports:
+  #     - '80:80'
+  #     - '81:81'
+  #     - '443:443'
